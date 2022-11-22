@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Account registration form</title>
+    <link rel="stylesheet" href="register.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-block">
+      <form action="register.php" method="POST">
+        <h1>Create a free account</h1>
+        <fieldset>
+          <legend>
+            <h3>Account Details</h3>
+          </legend>
+          <div class="account-details">
+            <div><label>Email*</label><input type="text" name="email" /></div>
+            <div>
+              <label>Password*</label><input type="password" name="password" />
+            </div>
+  
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>
+            <h3>Personal Details</h3>
+          </legend>
+          <div class="personal-details">
+            <div>
+              <div>
+                <label>First Name*</label><input type="text" name="fname" />
+              </div>
+              <div>
+                <label>Last Name*</label><input type="text" name="lname" />
+              </div>
+              <div>
+                <label>Occupation</label><input type="text" name="occupation" />
+              </div>
+              <div>
+                <label>Address</label><input type="text" name="address" />
+              </div>
+              <div>
+                <label>Phone number</label><input type="text" name="number" />
+              </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
